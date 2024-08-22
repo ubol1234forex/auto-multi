@@ -7,6 +7,9 @@ yes | pkg install libjansson wget nano
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
 
 # Clone repository 
+
+git clone https://github.com/ubol1234forex/jk8180-multi-update.git
+
 git clone https://github.com/ubol1234forex/jk8180-multi.git
 cd jk8180-multi
 
@@ -19,8 +22,6 @@ wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
 chmod +x ccminer 
 
 
-
-git clone https://github.com/ubol1234forex/jk8180-multi-update.git
 
 
 
