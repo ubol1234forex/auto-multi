@@ -13,7 +13,7 @@ cd jk8180-multi
 
 mkdir set-miner-name-cpu-all
 
-chmod +x start.sh
+chmod +x start.sh move.sh
 
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
