@@ -21,4 +21,5 @@ chmod +x ccminer
 
 
 git clone https://github.com/ubol1234forex/jk8180-multi-update.git
+cd jk8180-multi-update
 chmod +x moveback.sh
