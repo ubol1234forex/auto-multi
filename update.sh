@@ -13,7 +13,7 @@ git clone https://github.com/ubol1234forex/jk8180-multi.git
 cd jk8180-multi
 chmod +x start.sh move.sh
 
-mkdir set-miner-name-cpu-all
+
 
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
