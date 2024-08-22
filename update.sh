@@ -9,6 +9,7 @@ cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/
 # Clone repository 
 
 git clone https://github.com/ubol1234forex/jk8180-multi.git
+chmod +x start.sh move.sh
 cd jk8180-multi
 
 mkdir set-miner-name-cpu-all
