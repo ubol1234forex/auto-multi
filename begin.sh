@@ -8,12 +8,10 @@ cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/
 
 # Clone repository 
 git clone https://github.com/ubol1234forex/jk8180-multi-update.git
-
+chmod +x move.sh
 git clone https://github.com/ubol1234forex/jk8180-multi.git
 cd jk8180-multi
 git clone https://github.com/ubol1234forex/set-miner-name-cpu-all.git
-
-chmod +x move.sh
 chmod +x start.sh
 
 mkdir ccminer && cd ccminer
