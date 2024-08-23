@@ -25,12 +25,3 @@ wget https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/download/Versio
 
 tar -xf hansen33s-dero-miner-android-arm64.tar.gz
 
-proot-distro install ubuntu
-
-proot-distro login ubuntu
-
-apt update -y
-
-apt install wget -y
-
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.3.17/rqiner-aarch64-mobile
