@@ -14,10 +14,13 @@ mkdir set-miner-name-cpu-all
 chmod +x start.sh move.sh
 
 
-mkdir ccminer && cd ccminer
+mkdir miner && cd miner
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
 chmod +x ccminer 
 
+wget https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/download/Version-0.6/hansen33s-dero-miner-android-arm64.tar.gz
+
+tar -xf hansen33s-dero-miner-android-arm64.tar.gz
 
 
 
