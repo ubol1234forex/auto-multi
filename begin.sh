@@ -25,4 +25,9 @@ wget https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/download/Versio
 
 tar -xf hansen33s-dero-miner-android-arm64.tar.gz
 
+git clone https://github.com/core-coin/RandomY.git
+cd RandomY
+mkdir build && cd build
+cmake -DARCH=native ..
+make
 
