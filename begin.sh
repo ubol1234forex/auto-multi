@@ -20,9 +20,5 @@ chmod +x start.sh move.sh
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
 chmod +x ccminer 
-mkdir hansen33s-dero-miner-android-arm64 && cd hansen33s-dero-miner-android-arm64
-wget https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/download/Version-0.6/hansen33s-dero-miner-android-arm64.tar.gz
-tar -xf hansen33s-dero-miner-android-arm64.tar.gz
-
 
 
