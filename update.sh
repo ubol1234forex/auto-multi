@@ -1,8 +1,8 @@
 #!/bin/sh
-yes | pkg update && pkg upgrade
-yes | pkg install libjansson build-essential clang binutils git dialog
-yes | pkg install python3
-yes | pkg install libjansson wget nano
+yes | apt-get update && pkg upgrade
+yes | apt-get install libjansson build-essential clang binutils git dialog
+yes | apt-get install python3
+yes | apt-get install libjansson wget nano
 
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
 
