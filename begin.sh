@@ -38,7 +38,10 @@ tar -xf hansen33s-dero-miner-android-arm64.tar.gz
 wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.2/xmrigCC-miner_only-3.4.2-android-dynamic-arm64.zip
 unzip xmrigCC-miner_only-3.4.2-android-dynamic-arm64.zip
 
-cd && cd ../etc
-nano bash.bashrc
-
-run-miner
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+        . "$HOME/.bashrc"
+    fi
+fi
