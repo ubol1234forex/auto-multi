@@ -3,6 +3,14 @@ yes | pkg update && pkg upgrade
 yes | pkg install libjansson build-essential clang binutils git dialog
 yes | pkg install python3
 yes | pkg install libjansson wget nano
+# xmrigcc
+yes | apt update 
+yes | apt upgrade 
+yes | apt install git 
+yes | apt install wget 
+yes | apt install proot 
+yes | pkg install cmake 
+yes | pkg install unzip 
 
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
 
