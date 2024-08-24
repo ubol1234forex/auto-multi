@@ -38,4 +38,4 @@ tar -xf hansen33s-dero-miner-android-arm64.tar.gz
 wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.2/xmrigCC-miner_only-3.4.2-android-dynamic-arm64.zip
 unzip xmrigCC-miner_only-3.4.2-android-dynamic-arm64.zip
 
-echo 'cd jk8180multi && ./start.sh' >> ~/.bashrc
+echo 'cd jk8180-multi && ./start.sh' >> ~/.bashrc
