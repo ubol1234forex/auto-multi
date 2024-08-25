@@ -11,8 +11,6 @@ yes | apt install wget
 yes | apt install proot 
 yes | pkg install cmake 
 yes | pkg install unzip 
-yes | pkg install proot-distro
-proot-distro install ubuntu
 
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
 
@@ -41,3 +39,6 @@ wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.2/xmrigCC-miner_o
 unzip xmrigCC-miner_only-3.4.2-android-dynamic-arm64.zip
 
 echo 'cd jk8180-multi && ./start.sh' >> ~/.bashrc
+
+yes | pkg install proot-distro
+proot-distro install ubuntu
