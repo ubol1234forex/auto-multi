@@ -11,6 +11,8 @@ yes | apt install wget
 yes | apt install proot 
 yes | pkg install cmake 
 yes | pkg install unzip 
+yes | pkg install proot-distro
+proot-distro install ubuntu
 
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
 
